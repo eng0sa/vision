@@ -1,0 +1,16 @@
+@import './swiper';
+@import './Home';
+@import './SwiperSlide';
+@import './grid-photo';
+* {
+   
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+        background: #FDF9F9;
+}
