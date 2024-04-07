@@ -1,0 +1,64 @@
+.bird-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
+
+    .bird-photo {
+        position: relative;
+
+        .bird-image {
+            width: 708px;
+            height: 260px;
+        }
+
+        .button-container {
+            flex-direction: row;
+            gap: 10px;
+            padding: 20px;
+            top: 260px;
+            left: 423px;
+            .button-bird {
+                width: 130px;
+                height: 40px;
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 23.44px;
+                text-align: center;
+                border: none;
+                border-top: 8px solid #0034C6;
+                border-radius: 0;
+                background: #FDF9F9;
+                color: #05C99B;
+
+                &:first-child,
+                &:nth-child(2) {
+                    margin-right: 80px;
+                }
+            }
+        }
+    }
+
+    .content-container {
+        background: #05C99B;
+        border-radius: 9px;
+        padding: 10px;
+        width: 605px;
+        height: 252px;
+        position: absolute;
+        left: 700px;
+        .content {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 23.44px;
+            text-align: center;
+            color: #fff;
+            border-bottom: 2px solid #D9D9D9;
+            width: 100px;
+            height: 33px;
+            margin-left:  8px;
+        }
+    }
+}

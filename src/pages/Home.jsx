@@ -4,6 +4,9 @@ import GridImg from "../component/grid_imge";
 import { Typography, Avatar, Button, Image } from 'antd';
 import AvatarImg from '../imges/avatar.png';
 import Photo6 from '../imges/6.jpeg';
+import MyCards from "./card";
+import Apptest from "./BirdPart";
+import AppBird from "./BirdPart";
 
 const { Title, Paragraph } = Typography;
 
@@ -65,5 +68,12 @@ export default function Home() {
                 </div>
                 <Avatar size={382} className="avatar" src={AvatarImg} />
             </div>
+            <MyCards />
+            <div>
+                <p className="benefits-Vision">The benefits of Vision Center Certification</p>
+                <hr className="benefits-line"/>
+            </div>
+            <AppBird/>
         </>
-    )}
+    )
+}
